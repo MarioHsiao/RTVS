@@ -2,11 +2,15 @@
   "dependencies": {
     "MicroBuild.Core": "0.2.0",
     "Microsoft.Build": "15.1.262-preview5",
+    "Microsoft.Extensions.FileSystemGlobbing": "1.0.0",
     "Microsoft.VisualStudio.ComponentModelHost": "15.0.26105-RC3",
     "Microsoft.VisualStudio.Debugger.Interop.10.0": "10.0.30319",
     "Microsoft.VisualStudio.Debugger.Interop.14.0": "15.0.25726-Preview5",
+    "Microsoft.VisualStudio.Editor": "15.0.26105-RC3",
     "Microsoft.VisualStudio.Imaging": "15.0.26109-RC3",
     "Microsoft.VisualStudio.ImageCatalog": "15.0.26105-RC3",
+    "Microsoft.VisualStudio.Language.Intellisense": "15.0.26105-RC3",
+    "Microsoft.VisualStudio.Language.StandardClassification": "15.0.26105-RC3",
     "Microsoft.VisualStudio.ProjectSystem": "15.0.594-pre",
     "Microsoft.VisualStudio.ProjectSystem.SDK.Tools": "15.0.594-pre",
     "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "14.1.4",
@@ -20,6 +24,7 @@
     "Microsoft.VisualStudio.Text.UI": "15.0.26109-RC3",
     "Microsoft.VisualStudio.Text.UI.Wpf": "15.0.26109-RC3",
     "Microsoft.VSSDK.BuildTools": "15.0.25929-RC2",
+    "Newtonsoft.Json": "9.0.1",
     "System.IO.Compression.ZipFile": "4.0.1",
     "System.Collections.Immutable": "1.2.0",
     "VSSDK.DTE.8": "8.0.4"

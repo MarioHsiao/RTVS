@@ -4,7 +4,9 @@
     "Microsoft.VisualStudio.CoreUtility": "14.3.25407",
     "Microsoft.VisualStudio.Editor": "14.3.25407",
     "Microsoft.VisualStudio.Language.Intellisense": "14.3.25407",
-    "Microsoft.VisualStudio.Text.UI.Wpf": "14.3.25407"
+    "Microsoft.VisualStudio.Text.UI.Wpf": "14.3.25407",
+    "Microsoft.VisualStudio.Language.StandardClassification": "14.3.25407",
+    "Newtonsoft.Json": "9.0.1"
   },
   "frameworks": {
     "net46": {}

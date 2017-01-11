@@ -2,7 +2,6 @@
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
 using System;
-using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
@@ -19,7 +18,8 @@ using Microsoft.UnitTests.Core.XUnit;
 using Newtonsoft.Json.Linq;
 using Xunit;
 
-namespace Microsoft.R.Components.Test.ConnectionManager {
+namespace Microsoft.R.Components.Test.ConnectionManager
+{
     [ExcludeFromCodeCoverage]
     [Category.Connections]
     public sealed class ConnectionManagerViewModelTest : IDisposable {
