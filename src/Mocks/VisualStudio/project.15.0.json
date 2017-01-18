@@ -19,7 +19,7 @@
     "Microsoft.VisualStudio.TextManager.Interop.12.0": "12.0.30110",
     "Microsoft.VisualStudio.Utilities": "15.0.26105-RC3",
     "NSubstitute": "1.10.0",
-    "System.Collections.Immutable": "1.2.0",
+    "System.Collections.Immutable": "1.3.0",
     "xunit": "2.2.0-beta1-build3239",
     "xunit.runner.visualstudio": "2.2.0-beta1-build1144"
   },
