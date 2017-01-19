@@ -1,10 +1,8 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
-using System;
-using System.Security.Principal;
-using System.Text;
 using System.Runtime.InteropServices;
+using System.Text;
 using Microsoft.Common.Core.OS;
 using Microsoft.Extensions.Logging;
 using Microsoft.R.Host.Protocol;
@@ -13,7 +11,6 @@ using static Microsoft.Common.Core.NativeMethods;
 namespace Microsoft.R.Host.UserProfile {
     class RUserProfileServices : IUserProfileServices {
         public IUserProfileServiceResult CreateUserProfile(IUserCredentials credentials, ILogger logger) {
-            RUserProfileServiceResponse result;
             StringBuilder profileDir = new StringBuilder(MAX_PATH);
             uint size = (uint)profileDir.Capacity;
 
